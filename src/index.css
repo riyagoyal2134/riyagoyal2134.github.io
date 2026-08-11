@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Inter:wght@400;500;600&display=swap');
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+/* =========================================
+   1. ANIMATED HERO HEADER (NJIT COLORS)
+========================================= */
+header {
+    /* Using Official NJIT Navy Blue (#071D49) and NJIT Red (#D22630) */
+    background: linear-gradient(-45deg, #071D49, #0a265c, #D22630, #e82c37);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.8rem;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+/* =========================================
+   2. PILL-SHAPED GLOWING BUTTONS
+========================================= */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Themed NJIT Red Highlight Button */
+.cta-button.highlight {
+    background: #D22630;
+    border: none;
+    box-shadow: 0 4px 15px rgba(210, 38, 48, 0.4);
+}
+
+.cta-button.highlight:hover {
+    background: #071D49; /* Swaps to NJIT Navy on hover */
+    box-shadow: 0 8px 25px rgba(7, 29, 73, 0.5);
+}
+
+/* =========================================
+   3. FROSTED GLASS STICKY NAV
+========================================= */
+nav {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #475569;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #D22630; /* NJIT Red Hover */
+}
+
+/* =========================================
+   4. FLOATING CONTENT CARDS
+========================================= */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0,0,0,0.02);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #071D49; /* NJIT Navy for main headers */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 15px;
+    border: none;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 5px;
+    background: #D22630; /* NJIT Red underline accent */
+    border-radius: 3px;
+}
+
+h3 {
+    color: #475569;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+/* =========================================
+   5. INTERACTIVE CONTACT WIDGETS
+========================================= */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.contact-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.02);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.contact-card a {
+    color: #1e293b;
+    transition: color 0.3s;
+}
+
+.contact-card:hover a {
+    color: #D22630; /* NJIT Red Hover */
+}
+
+/* =========================================
+   6. MINIMALIST FOOTER
+========================================= */
+footer {
+    background: #071D49; /* NJIT Navy Footer */
+    color: #C1C6C8; /* NJIT Official Gray */
+    padding: 40px 0;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/* =========================================
+   7. PATCHES & FIXES
+========================================= */
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+main ul {
+    padding-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+main ul li {
+    margin-bottom: 8px;
+}
+
+main ul ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
