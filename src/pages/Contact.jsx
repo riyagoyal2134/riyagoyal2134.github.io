@@ -2,12 +2,14 @@ export default function Contact() {
   return (
     <main id="contact">
         <h2>Contact Me</h2>
+        
         <div className="contact-container">
-            <p>
-                Feel free to reach out on <a href="mailto:riyagoyal1126@gmail.com">riyagoyal1126@gmail.com</a> for collaborations, inquiries, or just to connect!
-            </p>
-        </div>
-        <div className="contact-container">
+
+            <div className="contact-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Email Icon" className="contact-icon" />
+                <p><a href="mailto:riyagoyal1126@gmail.com">Email</a></p>
+            </div>
+            
             {/* LinkedIn */}
             <div className="contact-card">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/500px-LinkedIn_logo_initials.png" alt="LinkedIn Icon" className="contact-icon" />
@@ -25,6 +27,18 @@ export default function Contact() {
                 <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="GitHub Icon" className="contact-icon" />
                 <p><a href="https://github.com/riyagoyal2134" target="_blank" rel="noreferrer">GitHub</a></p>
             </div>
+
+            {/* Orcid */}
+            <div className="contact-card">
+                <img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" alt="Orcid Icon" className="contact-icon" />
+                <p><a href="https://orcid.org/0009-0009-0245-6777" target="_blank" rel="noreferrer">Orcid</a></p>
+            </div>
+            
+            {/*ArXiv*/
+            <div className="contact-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/ArXiv_logo.png" alt="ArXiv Icon" className="contact-icon" />
+                <p><a href="https://arxiv.org/search/math?query=Goyal%2C+Riya&searchtype=author&abstracts=show&order=-announced_date_first&size=50" target="_blank" rel="noreferrer">ArXiv</a></p>
+            </div>}
         </div>
     </main>
   )

@@ -5,9 +5,8 @@ export default function Education() {
             <h2>Graduate Education</h2>
             <h3>New Jersey Institute of Technology | Newark, NJ <i>(Sep 2025 - Present)</i></h3>
             <ul>
-                <li>PhD in Applied Mathematics</li>
-                <li>Research Focus: Artificial Intelligence, Optimization, FinTech, Complex Systems</li>
-                <li>Academic Milestones: Successfully completed Analysis Qualifying Examination (August 10, 2026)</li>
+                <li>PhD in Mathematical Sciences, Track: Applied Mathematics</li>
+                <li>Research Focus: Optimization, FinTech, Numerical PDEs</li>
             </ul>
         </section>
 
