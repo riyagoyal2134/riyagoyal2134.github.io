@@ -11,7 +11,7 @@ export default function Research() {
                 <li>Forrest B. & Goyal R. (2025). Lights Out on Nearly Complete Graphs. https://doi.org/10.48550/arXiv.2508.09341.</li>
                 <li>Wei, D., Elmasri, J., Hernandez, B., Goyal, R., & Burdick, D. (2024). Exploring the landscape of Generative AI and Large Language models in Alzheimer and Dementia’s research. Innovation in Aging, 8(Suppl 1), 1112–1113. https://doi.org/10.1093/geroni/igae098.3571. Presented at the GSA Annual Scientific Meeting, Seattle, WA (Nov 13-16, 2024).</li>
                 <li>Wei, D., Elmasri, J., Goyal, R., Hernandez, B., & Burdick, D. (2024, November 9-13). Google Gemini-assisted scoping review of generative AI and large language models in ADRD research. Presented at American Medical Informatics Association (AMIA) Annual Symposium, San Francisco, CA.</li>
-                <li>Wei, D. H., Goyal, R., Prakash, S., & Zhang, R. (2023). <strong>Does COVID-19 affect mental health and substance use in young adults?</strong> <em>Journal of Education and Health Promotion, 12</em>, 108. https://doi.org/10.4103/jehp.jehp_1167_22.</li>
+                <li>Wei, D. H., Goyal, R., Prakash, S., & Zhang, R. (2023). Does COVID-19 affect mental health and substance use in young adults? Journal of Education and Health Promotion, 12, 108. https://doi.org/10.4103/jehp.jehp_1167_22.</li>
             </ul>
         </section>
 
