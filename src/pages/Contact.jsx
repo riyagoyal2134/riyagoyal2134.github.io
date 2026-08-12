@@ -36,7 +36,7 @@ export default function Contact() {
             
             {/*ArXiv*/
             <div className="contact-card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/ArXiv_logo.png" alt="ArXiv Icon" className="contact-icon" />
+                <img src="/arxiv.svg" alt="ArXiv Icon" className="contact-icon" />
                 <p><a href="https://arxiv.org/search/math?query=Goyal%2C+Riya&searchtype=author&abstracts=show&order=-announced_date_first&size=50" target="_blank" rel="noreferrer">ArXiv</a></p>
             </div>}
         </div>

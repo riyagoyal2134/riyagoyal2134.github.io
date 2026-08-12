@@ -3,16 +3,24 @@ export default function Education() {
     <main>
         <section id="njit">
             <h2>Graduate Education</h2>
-            <h3>New Jersey Institute of Technology | Newark, NJ <i>(Sep 2025 - Present)</i></h3>
+            <h3>New Jersey Institute of Technology <i>(Sep 2025 - Present)</i></h3>
             <ul>
-                <li>PhD in Mathematical Sciences, Track: Applied Mathematics</li>
-                <li>Research Focus: Optimization, FinTech, Numerical PDEs</li>
+                <li>PhD in Mathematical Sciences, <strong>Track:</strong> Applied Mathematics</li>
+                <li><strong>Research Focus: Optimization, FinTech, Numerical PDEs</strong></li>
+                <li><strong>Relevant Coursework: </strong>Advanced Applied Math Modeling, Methods (ODE, PDE), Linear Algebra, Teaching in Math, Numerical Analysis, Dynamical Systems, Responsible Conduct of Research</li>
+                <li><strong>Leadership Roles:</strong> <ul>
+                    <li>Alternate Department Representative of Mathematical Sciences for Graduate Student Association (Jan 2026-Present)</li>
+                    <li>NJIT Graduate Women in Computing (GWICS): Treasurer (May 2026-Present), Co-Treasurer (Nov 2025-May 2026)</li>
+                    <li>NJIT SIAM: Vice President (Sep 2025-Present)</li>
+                    <li>Sanskar: Secretary (May 2026-Present),Associate (Sep 2025-May 2026)</li>
+                    </ul>
+                </li>
             </ul>
         </section>
 
         <section id="stockton">
             <h2>Undergraduate Education</h2>
-            <h3>Stockton University | Galloway, NJ <i>(Sep 2021 - May 2025)</i></h3>
+            <h3>Stockton University <i>(Sep 2021 - May 2025)</i></h3>
             <ul>
                 <li><strong>Bachelor of Science in Computer Science</strong>
                     <ul>
