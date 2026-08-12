@@ -1,14 +1,6 @@
 export default function Research() {
   return (
     <main>
-        <section id="upcoming">
-            <h2>Upcoming Presentations</h2>
-            <ul>
-                <li><strong>Contributed Talk</strong> – SIAM New York-New Jersey-Pennsylvania Section (SIAM NNP26) Annual Meeting (October 23–25, 2026)</li>
-                <li><strong>Symposium Talk</strong> – GSA Annual Scientific Meeting (Nov 4-7, 2026)</li>
-            </ul>
-        </section>
-
         <section id="publications">
             <h2>Publications</h2>
             <ul>
