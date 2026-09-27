@@ -5,7 +5,7 @@ export default function Experience() {
         <h2>Experience</h2>
             <h3>New Jersey Institute of Technology | Newark, NJ</h3>
             <ul>
-                <li><strong>Graduate Teaching Assistant</strong> (Sep 2025 - Present)<br></br>Assisting in undergraduate courses, proctoring exams, and grading assignments.</li>
+                <li><strong>Graduate Teaching Assistant</strong> (Sep 2025 - Present)<br></br>Lead weekly recitation sections for undergraduate courses, proctoring exams, and grading assignments.</li>
                 <li><strong>MATLAB Tutor and Grader</strong> (Jan 2026 - May 2026) <br></br> Acted as the designated point of contact for advanced MATLAB inquiries, providing guidance and support to students, served as the grader for Linear Algebra.</li>
             </ul>
             <h3>Stockton University | Galloway, NJ</h3>
